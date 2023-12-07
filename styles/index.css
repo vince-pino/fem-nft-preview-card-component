@@ -44,16 +44,18 @@ main {
 
   border-radius: 8px;
   height: 300px;
-  cursor: pointer;
-}
-
-.icon-view-container:active {
   background-color: hsla(178, 100%, 50%, 0.5);
+  visibility: hidden;
 }
 
 .img-container .icon-view {
   width: 50px;
-  display: none;
+  visibility: hidden;
+}
+
+.img-container:active .icon-view-container,
+.img-container:active .icon-view {
+  visibility: visible;
 }
 
 .nft-name {
