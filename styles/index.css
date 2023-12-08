@@ -8,12 +8,30 @@ body {
   font-family: Outfit;
 }
 
+.wrapper {
+  margin-bottom: 50px;
+  box-shadow: 10px 20px 0px hsl(217, 53%, 8%, 0.1),
+             -10px 20px 0px hsl(217, 53%, 8%, 0.1),
+              20px 40px 0px hsl(217, 53%, 8%, 0.1),
+             -20px 40px 0px hsl(217, 53%, 8%, 0.1),
+
+              10px -20px 0px hsla(217, 40%, 10%, 0.1),
+             -10px -20px 0px hsl(217, 54%, 11%, 0.1),
+              30px -10px 0px hsl(217, 54%, 11%, 0.1),
+             -30px -10px 0px hsl(217, 54%, 11%, 0.1),
+              40px -5px 0px hsl(217, 54%, 11%, 0.1),
+             -40px -5px 0px hsl(217, 54%, 11%, 0.1),
+              50px 10px 0px hsl(217, 54%, 11%, 0.1),
+             -50px 10px 0px hsl(217, 54%, 11%, 0.1);
+}
+
 main {
   width: 300px;
   height: 546px;
   padding: 24px;
   background-color: hsl(216, 50%, 16%);
   border-radius: 15px;
+  
 }
 
 .img-container {
@@ -21,6 +39,7 @@ main {
   left: 0;
   top: 0;
   width: 300px;
+  cursor: pointer;
 }
 
 .img-container img {
